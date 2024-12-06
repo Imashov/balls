@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.scoops {
+    position: relative;
+    width: 450px;
+    height: 450px;
+}
+
+.scoop {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.scoop-1 {
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+    background-color: #9e9ee2;
+    z-index: 1;
+
+}
+
+.scoop-2 {
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    background-color: #93c572;
+}
+
+.scoop-3 {
+    position: absolute;
+    bottom: 100px;
+    right: 50px;
+    background-color: #f984e5;
+}
